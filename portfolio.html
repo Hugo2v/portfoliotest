@@ -44,6 +44,7 @@
     }
     .modal-content {
         width: 100%;
+        height: 100%;
     }
     .carousel-inner {
         max-width: 722px;
@@ -163,7 +164,7 @@
                     <h1 style="color: white">3D Modelling</h1>
                     <h5 style="color: white">/ 17' Golf R</h5>
                 </div>
-                    <div class="idk">
+                    <div class="idk"> <!-- CAROUSELS HERE -->
                         <div id="carousel1-1" class="carousel slide" data-ride="carousel1">
                             <ol class="carousel-indicators">
                                 <li data-target="#carousel1-1" data-slide-to="0" class="active"></li>
@@ -174,16 +175,16 @@
                         <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active" data-interval="10000">
-                                  <img src="images/golfr6.PNG" class="d-block w-100" style="object-fit: none" alt="...">
+                                    <a href="#" class="btn" data-toggle="modal" data-target="#golf1"><img src="images/golfr6.PNG" class="d-block w-100" style="object-fit: none" alt="3D Model Golf R"></a>
                                 </div>
                                 <div class="carousel-item" data-interval="2000">
-                                    <img src="images/golf7.PNG" width="50%" class="d-block w-100" alt="...">
+                                    <a href="#" class="btn" data-toggle="modal" data-target="#golf2"><img src="images/golf7.PNG" width="50%" class="d-block w-100" alt="3D Model Golf R"></a>
                                 </div>
                                 <div class="carousel-item" data-interval="2000">
-                                    <img src="images/golf8.PNG" width="50%" class="d-block w-100" alt="...">
+                                    <a href="#" class="btn" data-toggle="modal" data-target="#golf3"><img src="images/golf8.PNG" width="50%" class="d-block w-100" alt="3D Model Golf R"></a>
                                 </div>
                                 <div class="carousel-item" data-interval="2000">
-                                    <img src="images/golf9.PNG" width="50%" class="d-block w-100" alt="...">
+                                    <a href="#" class="btn" data-toggle="modal" data-target="#golf4"><img src="images/golf9.PNG" width="50%" class="d-block w-100" alt="3D Model Golf R"></a>
                                 </div>
                             </div>
                         </div>
@@ -191,6 +192,66 @@
                 </div>
             </div>
         </div> 
+         <!-- GOLF 1 -->
+        <div class="modal fade" id="golf1" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content" style="margin-top: 10%">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img src="images/golfR6.PNG" width="50%" class="d-block w-100" alt="3D Model Golf R">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- GOLF 2 -->
+        <div class="modal fade" id="golf2" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content" style="margin-top: 10%">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img src="images/golf7.PNG" width="50%" class="d-block w-100" alt="3D Model Golf R">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- GOLF 3 -->
+        <div class="modal fade" id="golf3" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content" style="margin-top: 10%">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img src="images/golf8.PNG" width="50%" class="d-block w-100" alt="3D Model Golf R">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- GOLF 4 -->
+        <div class="modal fade" id="golf4" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content" style="margin-top: 10%">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img src="images/golf9.PNG" width="50%" class="d-block w-100" alt="3D Model  GOLF R">
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
     </section>
 </div>
@@ -207,7 +268,7 @@
                                 <div class="carousel-inner">
                                     <div class="carousel-item active" data-interval="10000">
                                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-                                            <img src="images/khalid.png" class="d-block w-100" style="object-fit: contain" alt="...">
+                                            <img src="images/khalid.png" class="d-block w-100" style="object-fit: contain" alt="Marshmello ft. Khalid- Silence song">
                                         </button>
                                     </div>
                                 </div>
@@ -252,20 +313,65 @@
                         <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active" data-interval="10000">
-                                  <img src="images/posterR35.jpg" class="d-block w-100" style="opacity: 0.8" alt="...">
+                                    <a href="#" class="btn" data-toggle="modal" data-target="#gtr35"><img src="images/posterR35.jpg" class="d-block w-100" style="opacity: 0.8" alt="2017 Nissan GT-R R35"></a>
                                 </div>
-                                <div class="carousel-item" data-interval="2000">
-                                    <img src="images/r34done.png" class="d-block w-100" style="opacity: 0.8" alt="...">
+                                <div class="carousel-item" data-interval="20000">
+                                    <a href="#" class="btn" data-toggle="modal" data-target="#gtr34"><img src="images/r34done.png" class="d-block w-100" style="opacity: 0.8" alt="2002 Nissan GT-R R34"></a>
                                 </div>
-                                <div class="carousel-item" data-interval="2000">
-                                    <img src="images/r33.jpg" class="d-block w-100" style="opacity: 0.8" alt="...">
+                                <div class="carousel-item" data-interval="20000">
+                                    <a href="#" class="btn" data-toggle="modal" data-target="#gtr33"><img src="images/r33.jpg" class="d-block w-100" style="opacity: 0.8" alt="1998 Nissan GT-R R33"></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
+            <!-- R35 -->
+        <div class="modal fade" id="gtr35" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content" style="margin-top: 10%; height: 100%">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img src="images/r35full.jpg" class="d-block w-100" alt="2017 Nissan GT-R R35">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- R34 -->
+        <div class="modal fade" id="gtr34" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content" style="margin-top: 10%; height: 100%">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img src="images/r34full.png" class="d-block w-100" alt="2002 Nissan GT-R R34">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- R33 -->
+        <div class="modal fade" id="gtr33" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content" style="margin-top: 10%; height: 100%">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img src="images/r33full.jpg" class="d-block w-100"alt="1998 Nissan GT-R R33">
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
     </section>
     </div>
