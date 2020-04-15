@@ -60,6 +60,12 @@
         background: none;
         border: none;
     }
+    .downscroll {
+        width: 4%;
+        margin-left: 40%;
+        margin-top: 15%;
+        opacity: 40%;
+    }
     @supports (scroll-snap-type: y mandatory) {
     .scroll-container {
     height: 100vh;
@@ -96,16 +102,23 @@
             max-width: 100%;
         }
 }
-    @media only screen and (min-width: 576px) {
+    @media only screen and (max-width: 576px) {
         .modal-dialog {
             margin: 0;
             margin-left: 15%;
             max-width: 60%;
         }
+        .downscroll {
+            width: 15%;
+        }
     }
     @media only screen and (max-width: 800px) {
         .idk {
             width: 100%;
+        }
+        .downscroll {
+            width: 10%;
+            margin-top: 50%;
         }
     }
     @media only screen and (max-width: 1024px) {
@@ -115,13 +128,17 @@
         .modal-dialog {
             max-width: 75%;
         }
+        .downscroll {
+            width: 10%;
+            margin-top: 50%
+        }
     }
 
 </style>
     <link rel="stylesheet" href="https://use.typekit.net/ovw3dna.css">
 <title>Hugo Almeida - Portfolio</title>
 </head>
-<body>
+<body data-spy="scroll" data-target="#section" data-offset="1">
     <div class="bg-blur">
         <div style="background:
                     linear-gradient(
@@ -156,7 +173,7 @@
     </div>
 </div>
 <div class="container">
-    <section>
+    <section id="section1">
     <div class="row">
         <div class="col">
             <div class="frames">
@@ -191,6 +208,7 @@
                     </div>
                 </div>
             </div>
+            <a href="#section2"><img src="images/chevron-down-solid.svg" class="downscroll"></a>
         </div> 
          <!-- GOLF 1 -->
         <div class="modal fade" id="golf1" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
@@ -252,11 +270,11 @@
             </div>
           </div>
         </div>
-    </div>
+     </div>
     </section>
 </div>
     <div class="container">
-        <section>
+        <section id="section2">
         <div class="row">
             <div class="col">
                 <div class="frames">
@@ -290,12 +308,13 @@
                         </div>
                       </div>
                     </div>
+                 <a href="#section3"><img src="images/chevron-down-solid.svg" class="downscroll"></a>
                 </div> 
             </div>
         </section> 
     </div>
     <div class="container">
-    <section>
+    <section id="section3">
     <div class="row">
         <div class="col">
             <div class="frames">
