@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+    <!-- Your own CSS -->
+<style>
+    .intro {
+        top: 30%;
+    }
+    h2 {
+        font-family: Museo-Sans-Display;
+        font-weight: black;
+        font-size: 36pt;
+    }
+    h5 {
+        font-family: Museo-Sans;
+        font-weight: 700;
+        font-size: 14pt;
+    }
+    h7 {
+        font-family: Museo-Sans;
+        font-weight: 300;
+        font-size: 12pt;
+    }
+
+    .frames {
+        padding-top: 10%;
+        z-index: 1;
+        object-fit: fill;
+    }
+    .content {
+        z-index: 5;
+        padding-top: 10%;
+        position: absolute;
+    }
+    .idk {
+        object-fit: none;
+        
+        width: 80%;
+        padding-left: 15%;
+    }
+    .modal-content {
+        width: 100%;
+    }
+    .carousel-inner {
+        max-width: 722px;
+        max-height: 387px;
+        object-fit: cover;
+    }
+    .modal-dialog iframe {
+        width: 100%;
+    }
+    .btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.disabled, .btn-primary:disabled, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+        color: none;
+        background: none;
+        border: none;
+    }
+    @supports (scroll-snap-type: y mandatory) {
+    .scroll-container {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-padding: 250px 0 0;
+  }
+
+  section {
+    height: 100vh;
+    scroll-snap-align: center;
+  }
+}
+    @media only screen and (max-width: 600px) {
+        .idk {
+            width: 100%;
+            padding-left: 0;
+        }
+        .content {
+            position: relative;
+            padding-top: 5%;
+        }
+        .frames {
+            padding-top: 0;
+        }
+        h1 {
+            font-size: 36pt;
+        }
+        .scroll-container {
+            scroll-padding: 400px 0 0;
+        }
+        
+        .modal-dialog {
+            max-width: 100%;
+        }
+}
+        @media only screen and (min-width: 576px) {
+            .modal-dialog {
+                margin: 0;
+                margin-left: 15%;
+                max-width: 60%;
+            }
+        }
+
+</style>
+    <link rel="stylesheet" href="https://use.typekit.net/ovw3dna.css">
+<title>Hugo Almeida - Portfolio</title>
+</head>
+<body>
+    <div class="bg-blur">
+        <div style="background:
+                    linear-gradient(
+                    rgba(0, 0, 0, 0.7),
+                    rgba(0, 0, 0, 0.7)
+                    ),
+                    url(images/golf7.png) no-repeat center center fixed;" class="bg-image"></div>
+    </div>
+<div class="scroll-container">
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col" style="padding-left: 15%">
+            <a href="index.html"><img src="images/logo.svg" class="logo"></a>    
+        </div>
+        <div class="col-6">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" href="portfolio.html">PORTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <section>
+    <div class="row">
+        <div class="col">
+            <div class="frames">
+                <div class="content">
+                    <h1 style="color: white">3D Modelling</h1>
+                    <h5 style="color: white">/ 17' Golf R</h5>
+                </div>
+                    <div class="idk">
+                        <div id="carousel1-1" class="carousel slide" data-ride="carousel1">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel1-1" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel1-1" data-slide-to="1"></li>
+                                <li data-target="#carousel1-1" data-slide-to="2"></li>
+                                <li data-target="#carousel1-1" data-slide-to="3"></li>
+                            </ol>
+                        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-interval="10000">
+                                  <img src="images/golfr6.PNG" class="d-block w-100" style="object-fit: none" alt="...">
+                                </div>
+                                <div class="carousel-item" data-interval="2000">
+                                    <img src="images/golf7.PNG" width="50%" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" data-interval="2000">
+                                    <img src="images/golf8.PNG" width="50%" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" data-interval="2000">
+                                    <img src="images/golf9.PNG" width="50%" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    </section>
+</div>
+    <div class="container">
+        <section>
+        <div class="row">
+            <div class="col">
+                <div class="frames">
+                    <div class="content">
+                        <h1 style="color: white">Video</h1>
+                        <h5 style="color: white">/ Motion Graphics</h5>
+                    </div>
+                        <div class="idk">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-interval="10000">
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                                            <img src="images/khalid.png" class="d-block w-100" style="object-fit: contain" alt="...">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Marshmello ft. Khalid - Silence</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <iframe width="960" height="480" src="https://www.youtube.com/embed/CXBahHmcdfE" frameborder="0" allowfullscreen></iframe>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div> 
+            </div>
+        </section> 
+    </div>
+    <div class="container">
+    <section>
+    <div class="row">
+        <div class="col">
+            <div class="frames">
+                <div class="content">
+                    <h1 style="color: white">Illustrations</h1>
+                    <h5 style="color: white">/ Car Illustrations</h5>
+                </div>
+                    <div class="idk">
+                        <div id="carousel1-2" class="carousel slide" data-ride="carousel1-2">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel1-2" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel1-2" data-slide-to="1"></li>
+                                <li data-target="#carousel1-2" data-slide-to="2"></li>
+                            </ol>
+                        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-interval="10000">
+                                  <img src="images/posterR35.jpg" class="d-block w-100" style="opacity: 0.8" alt="...">
+                                </div>
+                                <div class="carousel-item" data-interval="2000">
+                                    <img src="images/r34done.png" class="d-block w-100" style="opacity: 0.8" alt="...">
+                                </div>
+                                <div class="carousel-item" data-interval="2000">
+                                    <img src="images/r33.jpg" class="d-block w-100" style="opacity: 0.8" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    </section>
+    </div>
+</div> <!-- Closes scroll container -->
+        
+
+    
+<!-- optional JS -->
+<script>
+/* 1 carousel */
+$('#carousel-1').carousel({
+      interval: 4000,
+      wrap: true,
+      keyboard: true
+ });
+ 
+ 
+ /* 2 carousel */
+ $('#carousel-2').carousel({
+      interval: 6000,
+      wrap: true,
+      keyboard: true
+ });
+</script>
+<!-- order is important jquary first, popper, then bootstrap -->
+<script src="js/jquery-3.4.1.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
